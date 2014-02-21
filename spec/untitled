@@ -1,0 +1,16 @@
+
+describe 'the online SMS page' do
+ it 'should show the form' do
+create_quiz(title: 'some quiz')
+ visit '/quizzes'
+expect(page).to have_content 'some quiz"
+end
+
+
+ it'should allow to fill the form' do
+ end
+
+ it 'should send the message' do
+ end
+
+end

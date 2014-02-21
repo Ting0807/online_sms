@@ -1,0 +1,16 @@
+<h1>wellcome!</h>
+<%= form_for :sms do |f| %>
+  <p>
+    <%= f.label :number_to_send_to%><br>
+    <%= f.text_field :number_to_send_to %>
+  </p>
+ 
+  <p>
+    <%= f.label :sms_from_users%><br>
+    <%= f.text_area :sms_from_users%>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>ß
